@@ -7,6 +7,6 @@ class Solution:
         for val in count.values():
             if val in occurence:
                 return False
-            occurence.add(val)    
-        return True                
+            occurence.add(val)
+        return True                     
         

@@ -8,8 +8,8 @@ class Solution:
                 rem=n%10
                 summ=summ+rem*rem
                 n=n//10
-            n=summ 
-        return n==1          
+            n=summ
+        return n==1                 
 
                  
         

@@ -1,7 +1,5 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        if n==1:
-            return True  
         visited=set()
         while n!=1 and n not in visited:
             visited.add(n)
